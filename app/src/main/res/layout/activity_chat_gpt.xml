@@ -28,16 +28,16 @@
         android:layout_alignParentBottom="true"
         android:padding="8dp"
         android:id="@+id/bottom_layout">
+
         <EditText
+            android:id="@+id/message_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/message_edit_text"
             android:layout_centerInParent="true"
-            android:hint="Write here "
-            android:padding="16dp"
             android:layout_toLeftOf="@id/send_btn"
             android:background="@drawable/rounded_corner"
-            />
+            android:hint="Nhập tin nhắn "
+            android:padding="16dp" />
         <ImageButton
             android:layout_width="48dp"
             android:layout_height="48dp"

@@ -101,7 +101,7 @@ public class ChatGptActivity extends AppCompatActivity {
                 .header("Authorization","Bearer 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")
                 .post(body)
                 .build();
-
+//        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
         client.newCall(request).enqueue(new Callback() {
             @Override
             public void onFailure(@NonNull Call call, @NonNull IOException e) {

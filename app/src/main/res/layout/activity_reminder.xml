@@ -28,7 +28,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Add Reminder Here..."
+                android:text="Đặt lịch học chung ở đây..."
                 android:textSize="30dp"
                 android:textStyle="bold"
                 android:layout_margin="10dp"/>
@@ -40,7 +40,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="10dp"
                 android:background="@drawable/edit_background"
-                android:hint="Enter The Task" />
+                android:hint="Nhập lời nhắn hoặc link meeting" />
 
 
             <LinearLayout
@@ -55,7 +55,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_weight="0.5"
-                    android:text="date" />
+                    android:text="NGÀY" />
 
                 <Button
                     android:id="@+id/btnTime"
@@ -63,7 +63,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_weight="0.5"
-                    android:text="time" />
+                    android:text="GIỜ" />
 
             </LinearLayout>
 
@@ -73,7 +73,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:text="Save" />
+                android:text="HOÀN TẤT" />
 
         </LinearLayout>
 
