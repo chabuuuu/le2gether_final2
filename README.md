@@ -17,6 +17,7 @@ To watch detailed introduction of the project: <https://g2.by/28lz>
 
 ## How Le2gether run
 Watch this video: https://drive.google.com/file/d/15lolEZqqUY9ZOSU6UKEXON11m6hSw08a/view?usp=sharing
+
 <img src="https://user-images.githubusercontent.com/114353003/226172814-312a520d-890f-4a5e-8d81-ce77cd30f106.png" alt ="..." width = "250">
 
 ## Our team
