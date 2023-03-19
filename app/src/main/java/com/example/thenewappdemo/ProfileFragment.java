@@ -196,7 +196,7 @@ public class ProfileFragment extends Fragment {
     private void showEditProfileDialog() {
         String options[] = {"Đổi tên", "Đổi ngành học của bạn"};
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-        builder.setTitle("Hãy chọn đi");
+        builder.setTitle("Chỉnh sửa");
 
         builder.setItems(options, new DialogInterface.OnClickListener() {
             @Override

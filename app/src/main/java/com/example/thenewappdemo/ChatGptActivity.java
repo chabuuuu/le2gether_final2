@@ -89,6 +89,7 @@ public class ChatGptActivity extends AppCompatActivity {
         JSONObject jsonBody = new JSONObject();
         try {
             jsonBody.put("model","text-davinci-003");
+//            jsonBody.put("model","text-curie-001");
             jsonBody.put("prompt",question);
             jsonBody.put("max_tokens",4000);
             jsonBody.put("temperature",0);
@@ -98,10 +99,12 @@ public class ChatGptActivity extends AppCompatActivity {
         RequestBody body = RequestBody.create(jsonBody.toString(),JSON);
         Request request = new Request.Builder()
                 .url("https://api.openai.com/v1/completions")
-                .header("Authorization","Bearer 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")
+                .header("Authorization","Bearer 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")
                 .post(body)
                 .build();
 //        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
+//        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
+//        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
         client.newCall(request).enqueue(new Callback() {
             @Override
             public void onFailure(@NonNull Call call, @NonNull IOException e) {
